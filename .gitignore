@@ -1,0 +1,3 @@
+# Secrets not to be shared
+.env
+credentials.csv
