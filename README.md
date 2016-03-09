@@ -59,7 +59,7 @@ In the [IAM](https://console.aws.amazon.com/iam) tab:
 1.  Save the file `credentials.csv` to this repository.
 1.  Click `Close`
 1.  Click on the newly created user.
-1.  Copy the `User ARN` _(Amazon Resource Name)_ and save it in `arn.txt`.
+1.  Copy the `User ARN` _(Amazon Resource Name)_ and save it in [arn.txt](arn.txt).
 
 We'll need the User ARN to grant access to an S3 bucket we'll use for uploads.
 We'll also need an `Access Key` _(Access Key Id and Secret Access Key)_ for this
@@ -68,6 +68,7 @@ The Access Key is contained in credentials.csv.
 
 **Note well:** credentials.csv contains `secrets`!
 Do not share them or store them in git.
+The [.gitignore](.gitignore) in this repository explicitly ignores this file.
 
 ### Simple Storage Service (S3)
 
