@@ -14,6 +14,7 @@ Follow the steps outlined to create and gain programatic access to an AWS S3
 ## Prerequisites
 
 -   An `AWS` _(Amazon Web Services)_ account
+-   A Credit card is required to verify your AWS account. 
 
 If you do not have an account, open [AWS](https://aws.amazon.com/) and click
  `Sign In to the Console`.
