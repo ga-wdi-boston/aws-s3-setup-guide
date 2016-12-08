@@ -14,7 +14,7 @@ Follow the steps outlined to create and gain programatic access to an AWS S3
 ## Prerequisites
 
 -   An `AWS` _(Amazon Web Services)_ account
--   A Credit card is required to verify your AWS account. 
+-   A Credit card is required to verify your AWS account.
 
 If you do not have an account, open [AWS](https://aws.amazon.com/) and click
  `Sign In to the Console`.
@@ -69,7 +69,8 @@ The Access Key is contained in credentials.csv.
 
 **Note well:** credentials.csv contains `secrets`!
 Do not share them or store them in git.
-The [.gitignore](.gitignore) in this repository explicitly ignores this file.
+The [.gitignore](.gitignore) in this repository explicitly ignores this file. Altering the [.gitignore](.gitignore) file
+in this repository could result in your AWS credentials (credentials linked to *your* credit card information) being visible on Github. *NEVER COMMIT SECRETS TO GIT*
 
 ### Simple Storage Service (S3)
 
