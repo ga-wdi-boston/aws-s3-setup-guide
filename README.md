@@ -51,16 +51,19 @@ Identities are how we grant access to AWS APIs.
 
 In the [IAM](https://console.aws.amazon.com/iam) tab:
 
-1.  Select `Users` in the left sidebar.
-1.  Click `Create New Users` near the top of the page.
-1.  Enter `wdi-upload` into box `1.`.
-1.  Make sure `Generate an access key for each user` is checked.
-1.  Click `Create`.
-1.  Click `Download Credentials`.
-1.  Save the file `credentials.csv` to this repository.
-1.  Click `Close`
-1.  Click on the newly created user.
-1.  Copy the `User ARN` _(Amazon Resource Name)_ and save it in [arn.txt](arn.txt).
+1. Select Users in the left sidebar.
+1. Click Add User near the top of the page.
+1. Enter wdi-upload into the text box.
+1. Under access type, click Programmatic Access
+1. Click Next
+1. Highlight Add User to Group
+1. Click Next
+1. Click create User
+1. Click Download Credentials.
+1. Save the file credentials.csv to this repository.
+1. Click Close
+1. Click on the newly created user.
+1. Copy the User ARN (Amazon Resource Name) and save it in arn.txt.1. 
 
 We'll need the User ARN to grant access to an S3 bucket we'll use for uploads.
 We'll also need an `Access Key` _(Access Key Id and Secret Access Key)_ for this
