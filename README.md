@@ -147,10 +147,10 @@ AWS provides many different mechanisms to grant and restrict access.
 
 ## Checklist
 
--   [ ] Create (or select) an AWS Identity.
--   [ ] Create and download credentials for this identity.
--   [ ] Create an S3 bucket.
--   [ ] Create a bucket policy.
+-   [√ ] Create (or select) an AWS Identity.
+-   [ √] Create and download credentials for this identity.
+-   [ √] Create an S3 bucket.
+-   [ √] Create a bucket policy.
 
 ## [License](LICENSE)
 

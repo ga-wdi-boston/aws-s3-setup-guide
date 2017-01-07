@@ -1,0 +1,2 @@
+User ARN:
+arn:aws:iam::968975226307:user/wdi-upload
