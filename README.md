@@ -8,7 +8,7 @@ Fork and clone this repository.
 
 Read over all the instructions before proceeding.
 
-Follow the steps outlined to create and gain programatic access to an AWS S3
+Follow the steps outlined to create and gain programmatic access to an AWS S3
  bucket.
 
 ## Prerequisites
