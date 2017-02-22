@@ -160,9 +160,13 @@ AWS provides many different mechanisms to grant and restrict access.
 ## Checklist
 
 -   [ ] Create (or select) an AWS Identity.
--   [ ] Create and download credentials for this identity.
+-   [ ] Set AWS Region to `US Standard`
+-   [ ] Create and download an access key for this identity.
+-   [ ] Save said access key csv inside this repo.
+-   [ ] Save your ARN to arn.txt in this repo.
 -   [ ] Create an S3 bucket.
 -   [ ] Create a bucket policy.
+-   [ ] **DO NOT ALTER THE .gitignore FILE**
 
 ## [License](LICENSE)
 
