@@ -65,7 +65,7 @@ _Then_
 1.  Click on the security credentials tab.
 1.  Click the small red `x` to the right of your existing access key to delete it.
 1.  Click `Create access key`
-1.  When complete, click `download .csv file` and save the csv to this repository.(this is
+1.  When complete, click `download .csv file` and save the CSV to this repository.(this is
 the only time you'll be able to see your access key, but you can generate a new one anytime
 and are encouraged to rotate them frequently)
 1.  Click `Download Credentials`.
@@ -86,7 +86,7 @@ in this repository could result in your AWS credentials (credentials linked to *
 
 ### Simple Storage Service (S3)
 
-S3 stores files you upload in `buckets`.  A bucket is a top level namespace
+S3 stores files you upload in `buckets`.  A bucket is a top-level namespace
  for your files.
 
 In the [S3](https://console.aws.amazon.com/s3) tab:
