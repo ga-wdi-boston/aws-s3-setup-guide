@@ -151,7 +151,7 @@ AWS provides many different mechanisms to grant and restrict access.
         "s3:PutObjectAcl",
         "s3:PutObject"
       ],
-      "Resource": "arn:aws:s3:::<bucket_name>/<key_name>"
+      "Resource": "arn:aws:s3:::<bucket_name>/*"
     }
   ]
 }
