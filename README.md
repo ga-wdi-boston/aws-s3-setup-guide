@@ -92,12 +92,13 @@ In the [S3](https://console.aws.amazon.com/s3) tab:
  buckets and in all lowercase characters.
 1.  Select `US Standard` for the `Region`.
 1.  Click `Create`.
-1.  Highlight your bucket and select the `Properties` tab on the right side.
+1.  Highlight your bucket by clicking on it and then select the `Properties` tab on the right side.
 1.  Open the `Permissions` dropdown in the right sidebar.
 1.  Click `Add bucket policy` near the bottom of the `Permissions` dropdown.
 1.  At the bottom of the `Bucket Policy Editor` modal,
  click `AWS Policy Generator`.  This opens the AWS Policy Generator page.
-1.  On the AWS Policy Generator page
+
+1.  On the AWS Policy Generator page:
 
     1.  Step 1: Select Policy Type
 
@@ -119,8 +120,8 @@ In the [S3](https://console.aws.amazon.com/s3) tab:
 
 1.  Return to the S3 tab.
 1.  Paste the bucket policy into the `Bucket Policy Editor` modal.
-1.  Click `Save`.
-1.  Click `Save` in the `Permissions` dropdown.
+1.  Click `Save` in the `Bucket Policy Editor` modal.
+1.  Then *also* Click `Save` in the `Permissions` dropdown.
 
 You have now created and granted access to an S3 bucket.
 
