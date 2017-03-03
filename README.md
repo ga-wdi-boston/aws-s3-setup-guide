@@ -57,9 +57,9 @@ In the [IAM](https://console.aws.amazon.com/iam) tab:
 1.  Enter `wdi-upload` into the text box.
 1.  Under access type, check `Programmatic Access`
 1.  Click `Next: Permissions`
-1.  Highlight Add User to Group (it will be by default)
+1.  Highlight `Add User to Group` (it will be by default)
 1.  Click `Next: Review`
-1.  Click create User
+1.  Click 'Create User'
 1. Under a green success message, click the `Download .csv` button.
 1. This will download a file called `credentials.csv`
 1.  Save the file `credentials.csv` to this repository.
