@@ -56,21 +56,20 @@ In the [IAM](https://console.aws.amazon.com/iam) tab:
 1.  Click `Add User` near the top of the page.
 1.  Enter `wdi-upload` into the text box.
 1.  Under access type, check `Programmatic Access`
-1.  Click Next
-1.  Highlight Add User to Group
-1.  Click Next
+1.  Click `Next: Permissions`
+1.  Highlight Add User to Group (it will be by default)
+1.  Click `Next: Review`
 1.  Click create User
-_Then_
-1.  Click on your newly created user.
-1.  Click on the security credentials tab.
-1.  Click the small red `x` to the right of your existing access key to delete it.
-1.  Click `Create access key`
-1.  When complete, click `download .csv file` and save the CSV to this repository.(this is
-the only time you'll be able to see your access key, but you can generate a new one anytime
-and are encouraged to rotate them frequently)
-1.  Click `Download Credentials`.
+1. Under a green success message, click the `Download .csv` button.
+1. This will download a file called `credentials.csv`
 1.  Save the file `credentials.csv` to this repository.
-1.  Click `Close`
+
+**Note well:** credentials.csv contains `secrets`!
+Do not share them or store them in git.
+The [.gitignore](.gitignore) in this repository explicitly ignores this file. Altering the [.gitignore](.gitignore) file
+in this repository could result in your AWS credentials (credentials linked to *your* credit card information) being visible on Github. *NEVER COMMIT SECRETS TO GIT*
+
+1. Click `close` button to return to the users page.
 1.  Click on the newly created user.
 1.  Copy the `User ARN` _(Amazon Resource Name)_ at the top of the page and save it in [arn.txt](arn.txt).
 
@@ -79,10 +78,6 @@ We'll also need an `Access Key` _(Access Key Id and Secret Access Key)_ for this
  IAM User to upload files via the S3 API.
 The Access Key is contained in credentials.csv.
 
-**Note well:** credentials.csv contains `secrets`!
-Do not share them or store them in git.
-The [.gitignore](.gitignore) in this repository explicitly ignores this file. Altering the [.gitignore](.gitignore) file
-in this repository could result in your AWS credentials (credentials linked to *your* credit card information) being visible on Github. *NEVER COMMIT SECRETS TO GIT*
 
 ### Simple Storage Service (S3)
 
